@@ -33,7 +33,6 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
 
   @override
   Widget build(BuildContext context) {
-    print("Video: ${widget.videoUrl}");
 
     return FutureBuilder(
       future: controller.initialize(),
